@@ -26,7 +26,7 @@ if (!fs.existsSync("./public/profile")) {
 }
 
 const app = express();
-const port = 4020;
+const port = 4001;
 
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
